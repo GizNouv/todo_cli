@@ -7,7 +7,6 @@
 # Cargo.lock
 
 # IDE files
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -19,3 +18,5 @@ Thumbs.db
 # Project-specific
 tasks.json
 *.log
+config.bat
+node_modules
