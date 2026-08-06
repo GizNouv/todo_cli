@@ -92,7 +92,7 @@ $ todo list
 ---
 
 ## 📁 Project Structure
-
+```bash
 todo_cli/
 ├── src/
 │   └── main.rs          # All the code (single-file for simplicity)
@@ -101,16 +101,17 @@ todo_cli/
 ├── tasks.json           # Auto-generated storage file
 ├── .gitignore           # Files to exclude from Git
 └── README.md            # This file
-
+```
 ---
 
 ## 🧠 Key Concepts Explored
-Concept	| Implementation
-Ownership |	String vs &str, borrowing (&), moving
-Structs | Task and TodoList
-Serialization |	serde_json for JSON persistence
-Pattern Matching | match for CLI routing, if let for Option handling
-Error Handling | expect() for simplicity (learning focus)
+| Concept | Implementation |
+|---------|----------------|
+| Ownership | String vs &str, borrowing (&), moving |
+| Structs | Task and TodoList |
+| Serialization | serde_json for JSON persistence |
+| Pattern Matching | match for CLI routing, if let for Option handling |
+| Error Handling | expect() for simplicity (learning focus) |
 
 ---
 
@@ -133,4 +134,4 @@ MIT License – feel free to use this code for your own learning!
 ## 🙏 Acknowledgments
 - [The Rust Book](https://doc.rust-lang.org/book/ch00-00-introduction.html) – The best resource for learning Rust
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/) – Practical examples
-- [Serde](https://serde.rs/) Documentation – For making JSON handling a breeze
+- [Serde Documentation](https://serde.rs/) – For making JSON handling a breeze
